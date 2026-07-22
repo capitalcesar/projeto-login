@@ -52,10 +52,75 @@ section#login > div#imagem {
 section#login > div#formulario {
     padding: 10px;
     display: block;
+    
 }
 
 div#formulario > h1 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+form > div.campo {
+    background-color: #9e5dc969;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    height: 100%;
+    display: inline-block;
+    width: 8%;
+    padding: 5px;
+}
+
+div.campo > input {
+    width: 90%;
+    height: 30px;
+    
+}
+
+form > input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+    display: block;
+    background-color: #49a04c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px #9e5dc969;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+form > input[type="submit"]:hover {
+    background-color: #2c673b;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #5f2c82;
+    border-bottom: 1px solid #5f2c82;
+}
+
+form > a.botao:hover {
+    color: #2d153d;
+    border-bottom: 3px solid #2d153d;
+    background-color: rgb(240, 239, 239);
+}
+
+div#formulario > q {
+    bottom: 10px;
+    position: absolute;
+    font-size: 0.8rem;
 }

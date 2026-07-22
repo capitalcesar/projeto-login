@@ -20,6 +20,10 @@
         width: 70%;
         height: 100%;
     }
+    div#formulario > q {
+        left: 65%;
+        transform: translateX(-65%);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -40,6 +44,10 @@
         float: left;
         width: 50%;
         height: 100%;
+    }
+    div#formulario > q {
+        left: 25%;
+        transform: translateX(-25%);
     }
 }
 
